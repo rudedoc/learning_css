@@ -26,20 +26,6 @@ div, p {
 html {
   background: #ccc;
   background-color: #fff;
-background-size: 100% 1.2em;
-background-image: -webkit-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-                  -webkit-linear-gradient(#eee .05em, transparent .05em);
-background-image: -moz-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-                  -moz-linear-gradient(#eee .05em, transparent .05em);
-background-image: -ms-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-                  -ms-linear-gradient(#eee .05em, transparent .05em);
-background-image: -o-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-                  -o-linear-gradient(#eee .05em, transparent .05em);
-background-image: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-                  linear-gradient(#eee .05em, transparent .05em);
--pie-background: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px) 0 0 / 100% 1.2em,
-                 linear-gradient(#eee .05em, transparent .05em) 0 0 / 100% 1.2em #fff;
-behavior: url(/PIE.htc);
 }
 
 body {
@@ -54,11 +40,14 @@ h1{
 }
 
 p {
-  background: rgba(237,226,197,8);
+  background: rgba(237,226,197,0.8);
   line-height: 20px;
   margin: 10px 0;
+  margin-top: 20px;
 }
 
 div {
-  background: rgba(109,154,197,8);
+  background: rgba(109,154,197,0.8);
+  margin: 10px 0;
+  padding: 1px 0;
 }
