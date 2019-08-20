@@ -28,24 +28,25 @@ html {
 }
 
 body {
-  width: 960px;
+  width: 80%;
   margin: 0 auto;
   font: 10px Arial, Arial, Helvetica, sans-serif;
-
 }
 
 .em {
   float: left;
-  width: 520px;
+  width: 60%;
   margin-bottom: 50px;
   background: rgba(237, 198, 75, 0.6);
+  padding: 1.4%;
 }
 
 .percentages{
   float: right;
-  width: 380px;
+  width: 30%;
   background: rgba(109, 154, 197, 0.4);
   margin-bottom: 50px;
+  padding: 1.4%;
 }
 
 footer {
@@ -59,20 +60,10 @@ h1 {
 
 h2 {
   font-size: 2em;
-  margin-bottom: 1em;
+  margin-bottom: 5%;
 }
 
 p {
   font-size: 1.5em;
   margin-bottom: 1em;
-}
-
-.em {
-  padding: 1em;
-  font-size: 1.5em;
-}
-
-.percentages {
-  padding: 1em;
-
 }
