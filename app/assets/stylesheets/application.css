@@ -18,36 +18,61 @@ aside, article, section, header, footer, nav {
   display: block;
 }
 
-div, p {
+article, div, h1, h2, p {
   margin: 0;
   padding: 0;
 }
 
 html {
-  background: #ccc;
-  background-color: #fff;
+
 }
 
 body {
-  width: 600px;
+  width: 960px;
   margin: 0 auto;
-  font: 100%, Arial, Arial, Helvetica, sans-serif;
+  font: 10px Arial, Arial, Helvetica, sans-serif;
 
 }
 
-h1{
-  margin: 1em 0;
+.em {
+  float: left;
+  width: 520px;
+  margin-bottom: 50px;
+  background: rgba(237, 198, 75, 0.6);
+}
+
+.percentages{
+  float: right;
+  width: 380px;
+  background: rgba(109, 154, 197, 0.4);
+  margin-bottom: 50px;
+}
+
+footer {
+  clear: both;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 p {
-  background: rgba(237,226,197,0.8);
-  line-height: 20px;
-  margin: 10px 0;
-  margin-top: 20px;
+  font-size: 1.5em;
+  margin-bottom: 1em;
 }
 
-div {
-  background: rgba(109,154,197,0.8);
-  margin: 10px 0;
-  padding: 1px 0;
+.em {
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.percentages {
+  padding: 1em;
+
 }
